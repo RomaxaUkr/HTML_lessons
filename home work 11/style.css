@@ -1,0 +1,35 @@
+.menu {
+    text-align: center;
+    z-index: 2
+}
+
+li {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 0;
+    background: #193a5f;
+    -webkit-transform: skewX(151deg);
+        -ms-transform: skewX(151deg);
+            transform: skewX(151deg);
+
+}
+
+a {
+    text-decoration: none;
+    color: #d1f8a9;
+    font-size: 10px;
+    display: inline-block;
+    -webkit-transform: skewX(-151deg);
+        -ms-transform: skewX(-151deg);
+            transform: skewX(-151deg);
+    padding: 0 11px 4px 11px
+}
+
+li:hover {
+    background: black
+}
+iframe{
+    margin-top: -40px;
+    z-index: 1
+}
